@@ -71,6 +71,17 @@ $ git add .
 $ git commit -m &#39;Initial commit&#39;
 $ git push origin master
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;deploy:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Deploy&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git submodule add git@github.com:drillbits/drillbits.github.io.git public
+$ hugo -t simple-a
+$ cd public
+$ git add -A
+$ git commit -m &#39;Build&#39;
+$ git push origin master
+$ cd ..
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
