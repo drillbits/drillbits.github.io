@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posts on My New Hugo Site </title>
+    <link>http://replace-this-with-your-hugo-site.com/posts/</link>
+    <language>en-us</language>
+    <author>Alexander Ivanov</author>
+    <updated>2015-07-20 18:30:00 &#43;0900 JST</updated>
+    
+    <item>
+      <title>init</title>
+      <link>http://replace-this-with-your-hugo-site.com/posts/init/</link>
+      <pubDate>Mon, 20 Jul 2015 18:30:00 JST</pubDate>
+      <author>Alexander Ivanov</author>
+      <guid>http://replace-this-with-your-hugo-site.com/posts/init/</guid>
+      <description>
+
+&lt;h1 id=&#34;init:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Init&lt;/h1&gt;
+
+&lt;h2 id=&#34;create-repository-for-github-pages:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Create repository for GitHub pages&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd ~/src/github.com/drillbits
+$ mkdir drillbits.github.io
+$ cd drillbits.github.io
+$ git init
+$ hub create drillbits.github.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-hugo:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Install hugo&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ go get github.com/spf13/hugo
+$ ghq get https://github.com/spf13/hugoThemes.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-site:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Create site&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd ~/src/github.com/drillbits
+$ hugo new site drillbits.jp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;write-initial-content:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Write initial content&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd drillbits.jp
+$ hugo new posts/init.md
+$ vim content/posts/init.md
+(write something)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;preview:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Preview&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cp -r ~/src/github.com/spf13/hugoThemes/simple-a themes/
+$ rm -rf themes/simple-a/.git
+$ hugo server --watch -D -t simple-a
+(snip)
+Serving pages from /Users/drillbits/src/github.com/drillbits/blog/public
+Web Server is available at http://127.0.0.1:1313/
+Press Ctrl+C to stop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-private-repository:24f14e8bc2db2f8447e489c9e0327d48&#34;&gt;Create private repository&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ rm -rf public
+$ git init
+$ hub create -p drillbits.jp
+$ touch archetypes/.gitkeep
+$ touch data/.gitkeep
+$ touch layouts/.gitkeep
+$ touch static/.gitkeep
+$ git add .
+$ git commit -m &#39;Initial commit&#39;
+$ git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
