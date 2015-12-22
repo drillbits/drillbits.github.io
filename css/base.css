@@ -60,3 +60,11 @@ a {
 .post-list {
   margin-bottom: 50px;
 }
+
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-content p {
+  margin-bottom: 15px;
+}
