@@ -6,8 +6,28 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Dec 2016 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Dec 2017 17:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://replace-this-with-your-hugo-site.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>X</title>
+      <link>http://replace-this-with-your-hugo-site.com/posts/x/</link>
+      <pubDate>Fri, 15 Dec 2017 17:00:00 +0900</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/posts/x/</guid>
+      <description>こんにちは、多重度・本番・流星・大門未知子です。患者を殺すな！うそうそわたしだよ。こちらは pyspa Advent Calendar 2017 15日目の記事です。
+今年は退職もしていないし、現職については███で█した通りです。特に書くこともないので今年を振り返ります。
+サービスがなくなった █████には某ウェッブサービスの開発要員としてジョインジョインしたのですが、なくなりました。 去年の記事の通り、弊社にはプログラマは1人しかいないのでキャリアパスが無なのですが、なんとか生きています。 それからの仕事としては以下です。
+ ベンダーに発注したシステムのコードベース書いたりCI環境整えたりレビューしたり 前職で現職から受注して作ったシステムの改修をする(発注しないのでスタミナを消費しない) 予算のないプロジェクトのアプリを作る(発注しないのでスタミナを消費しない)  言語としてはGo, Python, TypeScript, JavaScript, AndroidのJavaっぽいやつ、Swiftです。
+人間が生まれた 一人目のときは前職にいたので、嫁とともに出産前後1ヵ月の里帰りリモート勤務をしました。外出しないし米もどんどんでてくるのでプロレスラーのようになった。
+しかし現職にはそのような制度はない。上の子の保育園もあるのでTokyoで出産ということになりました。 夜中に陣痛氏がやってきてタクシーでシュッと移動、安産範囲内の時間で生まれ、上の子の保育園は予め上京していただいていた義母に任せるという感じだったのでこれといって書くこともないのですが、その後このような感じになっています。
+痩せた 上述した以外に、そもそも社会人になってから15kgくらい太っていたので、痩せることにし、痩せました。今-6kgくらいです。元は痩せすぎだったのであと2kgくらいで終わります。
+手法としては糖質制限なのですが、もろもろ細かいこと書くとダイエット警察が怖いのでやめます。友人の優れたアドバイスによるところが大きいです。
+その他 おれもここで We&amp;rsquo;re Hiring とか書きたい。
+2年連続で明日は瀧澤さんです。</description>
+    </item>
     
     <item>
       <title>█████に入社してました</title>
@@ -15,24 +35,15 @@
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0900</pubDate>
       
       <guid>http://replace-this-with-your-hugo-site.com/posts/j/</guid>
-      <description>&lt;p&gt;こんにちは、生焼けリスクです。うそうそわたしだよ。こちらは &lt;a href=&#34;http://www.adventar.org/calendars/1435&#34;&gt;pyspa Advent Calendar 2016&lt;/a&gt; 16日目の記事です。&lt;/p&gt;
-
-&lt;p&gt;前回の記事から 1 年ほど経ちましたが、実は█████に入社してました。&lt;/p&gt;
-
-&lt;p&gt;█████というとよく██作ってるんですかと言われますが、完全に無理ですし、じゃあ███████ですかといえば、ほとんど関わりがありません。たまに██を█████して███████を入れて████で██することなどがあるくらいです。&lt;/p&gt;
-
-&lt;p&gt;前職のような 30-40 人ほぼ全員プログラマのような社とは違い、社員 1███ 人中プログラマはただ 1 人といった装いの職です。さまざまな人間から 3 年で辞めるだの、いや 1 年もたないだの言われますが、そろそろ 1 年ですね。おめでとうございます。&lt;/p&gt;
-
-&lt;p&gt;支給される PC は Windows █ のデスクトップもしくは███ノートであり、███権限はなく、ディスプレイは 1 枚、社内██████にはさまざまな████が通してあるのか謎のエラーがでることがあります。&lt;/p&gt;
-
-&lt;p&gt;在宅勤務などできるわけもなく、首には███を掛け、███では 2、3 離れた島の██を肉声で呼びつける慣習があります。&lt;/p&gt;
-
-&lt;p&gt;しかし謎の力によりわたしには Mac Book Pro が支給され、社外の開発チームとのやりとりは Slack、ソースコード管理などは GitHub、日々 CircleCI に各ブランチをビルドしてもらっております。謎の力はすごい。███からは FTP とか rsync とかいうワードが流れてきますが強い心があるので無視できます。&lt;/p&gt;
-
-&lt;p&gt;とはいえなんでそんなところに転職したかという話ですが、お前はそんな話がオープンインターネットで聞けると思っているのか。&lt;/p&gt;
-
-&lt;p&gt;以上です。明日は誰かです。&lt;/p&gt;
-</description>
+      <description>こんにちは、生焼けリスクです。うそうそわたしだよ。こちらは pyspa Advent Calendar 2016 16日目の記事です。
+前回の記事から 1 年ほど経ちましたが、実は█████に入社してました。
+█████というとよく██作ってるんですかと言われますが、完全に無理ですし、じゃあ███████ですかといえば、ほとんど関わりがありません。たまに██を█████して███████を入れて████で██することなどがあるくらいです。
+前職のような 30-40 人ほぼ全員プログラマのような社とは違い、社員 1███ 人中プログラマはただ 1 人といった装いの職です。さまざまな人間から 3 年で辞めるだの、いや 1 年もたないだの言われますが、そろそろ 1 年ですね。おめでとうございます。
+支給される PC は Windows █ のデスクトップもしくは███ノートであり、███権限はなく、ディスプレイは 1 枚、社内██████にはさまざまな████が通してあるのか謎のエラーがでることがあります。
+在宅勤務などできるわけもなく、首には███を掛け、███では 2、3 離れた島の██を肉声で呼びつける慣習があります。
+しかし謎の力によりわたしには Mac Book Pro が支給され、社外の開発チームとのやりとりは Slack、ソースコード管理などは GitHub、日々 CircleCI に各ブランチをビルドしてもらっております。謎の力はすごい。███からは FTP とか rsync とかいうワードが流れてきますが強い心があるので無視できます。
+とはいえなんでそんなところに転職したかという話ですが、お前はそんな話がオープンインターネットで聞けると思っているのか。
+以上です。明日は誰かです。</description>
     </item>
     
     <item>
@@ -41,33 +52,12 @@
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0900</pubDate>
       
       <guid>http://replace-this-with-your-hugo-site.com/posts/q/</guid>
-      <description>&lt;p&gt;こちらは &lt;a href=&#34;http://qiita.com/advent-calendar/2015/pyspa&#34;&gt;pyspa Advent Calendar 2015&lt;/a&gt; 23日目の記事です。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;テーマは自分が好きなものや興味があるものをなんでもいいので書く。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/taishoku.png&#34; alt=&#34;退職&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;退職に興味がでてきたので、&lt;a href=&#34;http://www.beproud.jp/&#34;&gt;株式会社ビープラウド&lt;/a&gt;を1月末で退職します。有給をやっていくので中旬には無となります。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/taishoku.png&#34; alt=&#34;退職&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;今後ですが、スーパーファミコンだけやって生きていけたらいいなあと思います。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/taishoku.png&#34; alt=&#34;退職&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/taishoku.png&#34; alt=&#34;退職&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/taishoku.png&#34; alt=&#34;退職&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;参考資料&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.jp/gp/registry/wishlist/9N96PW0YEYGH?sort=priority&#34;&gt;https://www.amazon.co.jp/gp/registry/wishlist/9N96PW0YEYGH?sort=priority&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/gnarl/20120407/1333725733&#34;&gt;http://d.hatena.ne.jp/gnarl/20120407/1333725733&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>こちらは pyspa Advent Calendar 2015 23日目の記事です。
+ テーマは自分が好きなものや興味があるものをなんでもいいので書く。
+ 退職に興味がでてきたので、株式会社ビープラウドを1月末で退職します。有給をやっていくので中旬には無となります。
+今後ですが、スーパーファミコンだけやって生きていけたらいいなあと思います。
+参考資料
+ https://www.amazon.co.jp/gp/registry/wishlist/9N96PW0YEYGH?sort=priority http://d.hatena.ne.jp/gnarl/20120407/1333725733  </description>
     </item>
     
   </channel>
